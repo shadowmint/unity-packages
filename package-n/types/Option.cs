@@ -81,6 +81,14 @@ namespace N {
       }
       throw new Exception("Invalid attempt to dereference empty Option");
     }
+
+    /// Render as a string
+    public override string ToString() {
+      if (this) {
+        return string.Format("<Option({0})>", value_.ToString());
+      }
+      return "<Option(NONE)>";
+    }
   }
 
   /// Failure handler

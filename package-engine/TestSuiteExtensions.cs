@@ -1,6 +1,10 @@
 using UnityEngine;
 using N.Tests;
 using N;
+#if UNITY_EDITOR
+using UnityEditor;
+using System.IO;
+#endif
 
 namespace N {
 
@@ -48,11 +52,12 @@ namespace N {
     }
   }
 
+  #if UNITY_EDITOR
   public class TestExtensionsTests : TestSuite {
     public void test_screen_coordinates_by_position() {
       var obj = this.SomeObject();
       Assert(obj != null);
       Object.DestroyImmediate(obj);
     }
-  }
+  } #endif
 }
