@@ -38,7 +38,24 @@ namespace N.Package.Assets {
 
     /// Create a quad game object in the current scene
     public Option<GameObject> Quad(Material material) {
-      return Option.None<GameObject>();
+      var instance = GameObject.CreatePrimitive(PrimitiveType.Quad);
+      var renderer = instance.GetComponent<Renderer>();
+      renderer.material = material;
+      return Option.Some(instance);
+    }
+
+    /// Turn a game object into a prefab.
+    /// You probably want foo.prefab for the output name.
+    public bool Prefab(GameObject target, string output) {
+      try {
+        var prefab = EditorUtility.CreateEmptyPrefab(Path.Combine(path, output).ToString());
+        EditorUtility.ReplacePrefab(target, prefab, ReplacePrefabOptions.ConnectToPrefab);
+        return true;
+      }
+      catch(Exception err) {
+        N.Console.Error(err);
+        return false;
+      }
     }
   }
 
@@ -50,6 +67,18 @@ namespace N.Package.Assets {
     }
 
     public void test_quad_factory() {
+      var factory = new Factory(Packages.Relative("package-assets/Resources/package-assets/tests").Unwrap());
+      var material = factory.Material("package-assets/tests/test", "Standard", "test.mat").Unwrap();
+      Assert(factory.Quad(material).IsSome);
+    }
+
+    public void test_prefab_factory() {
+      var factory = new Factory(Packages.Relative("package-assets/Resources/package-assets/tests").Unwrap());
+      var material = factory.Material("package-assets/tests/test", "Standard", "test.mat").Unwrap();
+      var quad = factory.Quad(material).Unwrap();
+      N.Console.Debug();
+      N.Console.Log(quad);
+      Assert(factory.Prefab(quad, "quad.prefab"));
     }
   }
 }
