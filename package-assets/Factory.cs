@@ -48,8 +48,8 @@ namespace N.Package.Assets {
     /// You probably want foo.prefab for the output name.
     public bool Prefab(GameObject target, string output) {
       try {
-        var prefab = EditorUtility.CreateEmptyPrefab(Path.Combine(path, output).ToString());
-        EditorUtility.ReplacePrefab(target, prefab, ReplacePrefabOptions.ConnectToPrefab);
+        var prefab = PrefabUtility.CreateEmptyPrefab(Path.Combine(path, output).ToString());
+        PrefabUtility.ReplacePrefab(target, prefab, ReplacePrefabOptions.ConnectToPrefab);
         return true;
       }
       catch(Exception err) {
