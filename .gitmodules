@@ -1,0 +1,24 @@
+[submodule "unity-n-data"]
+	path = unity-n-data
+	url = git@github.com:shadowmint/unity-n-data.git
+[submodule "unity-n-camera"]
+	path = unity-n-camera
+	url = git@github.com:shadowmint/unity-n-camera.git
+[submodule "unity-n-animation"]
+	path = unity-n-animation
+	url = git@github.com:shadowmint/unity-n-animation.git
+[submodule "unity-n-input"]
+	path = unity-n-input
+	url = git@github.com:shadowmint/unity-n-input.git
+[submodule "unity-n-core"]
+	path = unity-n-core
+	url = git@github.com:shadowmint/unity-n-core.git
+[submodule "unity-n-layout"]
+	path = unity-n-layout
+	url = git@github.com:shadowmint/unity-n-layout.git
+[submodule "unity-n-native"]
+	path = unity-n-native
+	url = git@github.com:shadowmint/unity-n-native.git
+[submodule "unity-n-ui"]
+	path = unity-n-ui
+	url = git@github.com:shadowmint/unity-n-ui.git
