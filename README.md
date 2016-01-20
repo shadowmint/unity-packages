@@ -1,3 +1,3 @@
-# Unity-packages
+# unity-packages
 
-This is an open collection of helpful scripts to use with Unity3d.
+All child packages as sub-repos.
