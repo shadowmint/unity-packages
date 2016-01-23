@@ -22,3 +22,6 @@
 [submodule "unity-n-ui"]
 	path = unity-n-ui
 	url = git@github.com:shadowmint/unity-n-ui.git
+[submodule "unity-n-bind"]
+	path = unity-n-bind
+	url = git@github.com:shadowmint/unity-n-bind.git
