@@ -25,3 +25,6 @@
 [submodule "unity-n-bind"]
 	path = unity-n-bind
 	url = git@github.com:shadowmint/unity-n-bind.git
+[submodule "unity-n-procedural"]
+	path = unity-n-procedural
+	url = git@github.com:shadowmint/unity-n-procedural.git
