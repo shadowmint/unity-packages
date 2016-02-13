@@ -28,3 +28,6 @@
 [submodule "unity-n-procedural"]
 	path = unity-n-procedural
 	url = git@github.com:shadowmint/unity-n-procedural.git
+[submodule "unity-n-events"]
+	path = unity-n-events
+	url = git@github.com:shadowmint/unity-n-events.git
