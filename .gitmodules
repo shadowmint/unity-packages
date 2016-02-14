@@ -31,3 +31,6 @@
 [submodule "unity-n-events"]
 	path = unity-n-events
 	url = git@github.com:shadowmint/unity-n-events.git
+[submodule "unity-n-objectstream"]
+	path = unity-n-objectstream
+	url = git@github.com:shadowmint/unity-n-objectstream.git
