@@ -34,3 +34,6 @@
 [submodule "unity-n-objectstream"]
 	path = unity-n-objectstream
 	url = git@github.com:shadowmint/unity-n-objectstream.git
+[submodule "unity-n-atf"]
+	path = unity-n-atf
+	url = git@github.com:shadowmint/unity-n-atf.git
