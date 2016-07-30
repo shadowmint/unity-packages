@@ -37,3 +37,6 @@
 [submodule "unity-n-atf"]
 	path = unity-n-atf
 	url = git@github.com:shadowmint/unity-n-atf.git
+[submodule "unity-n-jsonbridge"]
+	path = unity-n-jsonbridge
+	url = git@github.com:shadowmint/unity-n-jsonbridge.git
