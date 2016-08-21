@@ -40,3 +40,6 @@
 [submodule "unity-n-jsonbridge"]
 	path = unity-n-jsonbridge
 	url = git@github.com:shadowmint/unity-n-jsonbridge.git
+[submodule "unity-n-command"]
+	path = unity-n-command
+	url = git@github.com:shadowmint/unity-n-command.git
