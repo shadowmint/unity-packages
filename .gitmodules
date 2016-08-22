@@ -37,3 +37,9 @@
 [submodule "unity-n-atf"]
 	path = unity-n-atf
 	url = git@github.com:shadowmint/unity-n-atf.git
+[submodule "unity-package-template"]
+	path = unity-package-template
+	url = git@github.com:shadowmint/unity-package-template.git
+[submodule "unity-n-command"]
+	path = unity-n-command
+	url = git@github.com:shadowmint/unity-n-command.git
