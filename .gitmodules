@@ -49,3 +49,9 @@
 [submodule "unity-rider"]
 	path = unity-rider
 	url = git@github.com:shadowmint/unity-rider.git
+[submodule "unity-zxing"]
+	path = unity-zxing
+	url = git@github.com:shadowmint/unity-zxing.git
+[submodule "examples/unity-example-unet-transport"]
+	path = examples/unity-example-unet-transport
+	url = git@github.com:shadowmint/unity-example-unet-transport.git
