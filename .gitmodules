@@ -46,9 +46,6 @@
 [submodule "unity-n-command"]
 	path = unity-n-command
 	url = git@github.com:shadowmint/unity-n-command.git
-[submodule "unity-rider"]
-	path = unity-rider
-	url = git@github.com:shadowmint/unity-rider.git
 [submodule "unity-zxing"]
 	path = unity-zxing
 	url = git@github.com:shadowmint/unity-zxing.git
