@@ -55,3 +55,9 @@
 [submodule "examples/unity-example-unet-transport"]
 	path = examples/unity-example-unet-transport
 	url = git@github.com:shadowmint/unity-example-unet-transport.git
+[submodule "unity-3rdparty-sqlite"]
+	path = unity-3rdparty-sqlite
+	url = git@github.com:shadowmint/unity-3rdparty-sqlite.git
+[submodule "unity-3rdparty-sqlite-net"]
+	path = unity-3rdparty-sqlite-net
+	url = git@github.com:shadowmint/unity-3rdparty-sqlite-net.git
