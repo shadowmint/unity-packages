@@ -67,3 +67,6 @@
 [submodule "unity-n-uitools"]
 	path = unity-n-uitools
 	url = git@github.com:shadowmint/unity-n-uitools.git
+[submodule "unity-n-tests"]
+	path = unity-n-tests
+	url = git@github.com:shadowmint/unity-n-tests.git
