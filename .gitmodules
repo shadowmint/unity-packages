@@ -58,3 +58,12 @@
 [submodule "unity-3rdparty-sqlite-net"]
 	path = unity-3rdparty-sqlite-net
 	url = git@github.com:shadowmint/unity-3rdparty-sqlite-net.git
+[submodule "unity-n-promises"]
+	path = unity-n-promises
+	url = git@github.com:shadowmint/unity-n-promises.git
+[submodule "unity-n-database"]
+	path = unity-n-database
+	url = git@github.com:shadowmint/unity-n-database.git
+[submodule "unity-n-uitools"]
+	path = unity-n-uitools
+	url = git@github.com:shadowmint/unity-n-uitools.git
