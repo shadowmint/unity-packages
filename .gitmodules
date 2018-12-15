@@ -73,3 +73,6 @@
 [submodule "unity-n-optional"]
 	path = unity-n-optional
 	url = git@github.com:shadowmint/unity-n-optional.git
+[submodule "unity-n-systems"]
+	path = unity-n-systems
+	url = git@github.com:shadowmint/unity-n-systems.git
