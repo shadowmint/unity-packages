@@ -11,7 +11,7 @@
 	path = unity-n-input
 	url = git@github.com:shadowmint/unity-n-input.git
 [submodule "unity-n-core"]
-	path = unity-n-core
+	path = depreciated/unity-n-core
 	url = git@github.com:shadowmint/unity-n-core.git
 [submodule "unity-n-layout"]
 	path = unity-n-layout
