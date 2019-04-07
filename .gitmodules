@@ -20,7 +20,7 @@
 	path = unity-n-native
 	url = git@github.com:shadowmint/unity-n-native.git
 [submodule "unity-n-ui"]
-	path = unity-n-ui
+	path = depreciated/unity-n-ui
 	url = git@github.com:shadowmint/unity-n-ui.git
 [submodule "unity-n-bind"]
 	path = unity-n-bind
@@ -76,3 +76,12 @@
 [submodule "unity-n-systems"]
 	path = unity-n-systems
 	url = git@github.com:shadowmint/unity-n-systems.git
+[submodule "unity-n-flow"]
+	path = unity-n-flow
+	url = git@github.com:shadowmint/unity-n-flow.git
+[submodule "unity-n-uielements"]
+	path = unity-n-uielements
+	url = git@github.com:shadowmint/unity-n-uielements.git
+[submodule "unity-n-relay"]
+	path = unity-n-relay
+	url = git@github.com:shadowmint/unity-n-relay.git
