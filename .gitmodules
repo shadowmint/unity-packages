@@ -76,3 +76,9 @@
 [submodule "unity-n-systems"]
 	path = unity-n-systems
 	url = git@github.com:shadowmint/unity-n-systems.git
+[submodule "unity-n-relay"]
+	path = unity-n-relay
+	url = git@github.com:shadowmint/unity-n-relay.git
+[submodule "unity-n-flow"]
+	path = unity-n-flow
+	url = git@github.com:shadowmint/unity-n-flow.git
