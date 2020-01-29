@@ -85,3 +85,6 @@
 [submodule "unity-n-workflows"]
 	path = unity-n-workflows
 	url = git@github.com:shadowmint/unity-n-workflows.git
+[submodule "unity-3rdparty-twison"]
+	path = unity-3rdparty-twison
+	url = git@github.com:shadowmint/unity-3rdparty-twison.git
